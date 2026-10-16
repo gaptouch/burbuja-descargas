@@ -4,14 +4,26 @@ App de Mac para grabar explicaciones con tu cara en una burbuja. Grabas trabajan
 
 Necesita macOS 15 o posterior.
 
-## Descargar
+## Instalar
 
-**[Descargar Burbuja (.dmg)](https://github.com/gaptouch/burbuja-descargas/raw/main/Burbuja.dmg)**
+Abre la app **Terminal** (Cmd + espacio, escribe "Terminal"), pega esta línea y pulsa Intro:
 
-1. Abre el .dmg y arrastra Burbuja a Aplicaciones.
-2. La primera vez macOS avisa de que no puede comprobar el desarrollador. Ve a Ajustes del Sistema > Privacidad y seguridad y pulsa **Abrir igualmente**.
-3. Da los permisos que pide: cámara, micrófono, grabación de pantalla y accesibilidad.
+```bash
+curl -fsSL https://raw.githubusercontent.com/gaptouch/burbuja-descargas/main/instalar.sh | bash
+```
 
-A partir de la versión 0.2.0 Burbuja se actualiza sola: avisa cuando hay versión nueva y se instala con un clic.
+Descarga la última versión, la pone en Aplicaciones (sustituye la anterior si la tenías) y la abre. Así macOS no sale con el aviso de "Apple no ha podido verificar que Burbuja no contenga software malicioso", que aparece porque la app no pasa por la App Store.
+
+Después da los permisos que pide: cámara, micrófono, grabación de pantalla y accesibilidad.
+
+### Sin Terminal
+
+1. [Descarga el .dmg](https://github.com/gaptouch/burbuja-descargas/raw/main/Burbuja.dmg), ábrelo y arrastra Burbuja a Aplicaciones.
+2. Abre Burbuja. Sale el aviso de Apple: pulsa **Aceptar** (no "Trasladar a la Papelera").
+3. Ve a Ajustes del Sistema > Privacidad y seguridad, baja del todo y en "Se ha bloqueado Burbuja" pulsa **Abrir igualmente**. Pide tu contraseña y un último aviso, otra vez **Abrir igualmente**.
+
+## Actualizaciones
+
+A partir de la versión 0.2.0 Burbuja se actualiza sola: avisa cuando hay versión nueva y se instala con un clic, sin ningún aviso de Apple.
 
 Este repositorio solo guarda las descargas. Lo publica la compilación automática de Burbuja.
