@@ -2,5 +2,13 @@
 <rss version="2.0" xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle">
   <channel>
     <title>Burbuja</title>
+    <item>
+      <title>Burbuja 0.2.0</title>
+      <pubDate>Sat, 17 Oct 2026 00:04:50 +0000</pubDate>
+      <sparkle:version>108</sparkle:version>
+      <sparkle:shortVersionString>0.2.0</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+      <enclosure url="https://raw.githubusercontent.com/gaptouch/burbuja-descargas/main/versiones/Burbuja-0.2.0.dmg" length="3245957" type="application/octet-stream" sparkle:edSignature="MtmQxf6ys9kEd5jh4nPS21aY9zaTcP8iVab8ddK4UJAvbCEmNq4rplCz/auqdNcaimYkQKgD5rtt45Kk4qvZBw=="/>
+    </item>
   </channel>
 </rss>
